@@ -1,7 +1,7 @@
 public class WordDictionary {
-    HashSet<string> dictionary;
+    List<string> dictionary;
     public WordDictionary() {
-        dictionary = new HashSet<string>();
+        dictionary = new List<string>();
     }
     
     public void AddWord(string word) {
